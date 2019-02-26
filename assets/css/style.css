@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+#border {
+background:#ffffff;
+height: 75px;
+width: 100%;
+border-bottom-style: solid;
+border-bottom-color: #cccccc;
+}
+
+.name {
+    background: #4aaaa5;
+    height: 75px;
+    width: 280px;
+    text-align: center;
+    line-height: 75px;
+    margin-left: 225px;
+}
+
+.info {
+    float: left;
+    height: 35px;
+    width: 250px;
+    background: #ffffff;
+    margin-left: 900px;
+    margin-top: -65px;
+}
+.About {
+    float:left;
+    font-size: 14px;
+    font-family: "Arial";
+    border-right-style: solid;
+    border-color: #cccccc;
+    border-width: 4px;
+    padding: 10px;
+    padding-top: 25px;
+    
+
+}
+
+.Portfolio {
+    float: left;
+    font-family: "Arial";
+    font-size: 14px;
+    border-right-style: solid;
+    border-color: #cccccc;
+    padding: 10px;
+    padding-top: 25px;
+    border-width: 4px;
+    
+}
+
+.Contact {
+    float: left;
+    font-family: "Arial";
+    font-size: 14px; 
+    padding: 10px;
+    padding-top: 25px;
+    border-width: 4px;
+
+}
+
+h1 {
+    color: #ffffff;
+    font-family: "Georgia";
+    margin-top: 0;
+
+}
+
+#main {
+    background: #ffffff;
+    width: 960px;
+    height: auto;
+    margin-left: 220px;
+    margin-right: 250px;
+    margin-top: 0;
+}
+
+.sb {
+    background: #cccccc;
+    height: 2px;
+    width: 900px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -15px;   
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 30px;
+    font-family: "Georgia";
+    padding-left: 30px;
+    padding-top: -60px;
+ }
+.img {
+    background: url("assets/images/elMorro.jpg");
+    display: block;
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding: 4px;
+    
+    
+}
+
+ p {
+     font-family: "Arial";
+     font-size: 18px;
+     line-height:35px;
+     color: #777777;
+     padding: 10px;
+     padding-top: 5px;
+     padding-right: 5px;
+
+ }
+ #footer {
+     position: fixed;
+     height: 65px;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background: #777777;
+     border-top: 8px;
+     border-top-style:solid;
+     border-top-color:  #4aaaa5;
+     text-align: center;
+     font-family: "Arials";
+     line-height: 65px;
+     color: #cccccc;
+
+ }
+ .push {
+     height: 30px;
+ }
+
+
+ /* Contact sheet styling*/
+
+ #main2 {
+    background: #ffffff;
+    width: 960px;
+    height: 410px;
+    margin-left: 220px;
+    margin-right: 250px;
+    margin-top: 0;
+
+}
+
+#fd {
+    height: auto;
+    width: auto;
+    margin-left: 50px;
+}
+
+ #name { input [type=text], select, textarea 
+     width: 80%;
+     padding: 10px;
+     border: 1px solid ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: -50px;
+     margin-bottom: -300px;
+     resize: vertical;
+ }
+
+#email { input [type=text], select, textarea
+    width: 100%;
+    padding: 10px;
+    border: 1px solid ccc;
+    border-radius: 4px;
+    box sizing: border-box;
+    margin-top: -40px;
+    margin-bottom: 2px;
+    resize: vertical;
+}
+
+#message { input [type=text], select, textarea
+    width: 100%;
+    padding: 20px;
+    border: 1px solid ccc;
+    border-radius: 4px;
+    box sizing: border-box;
+    margin-top: -30px;
+    margin-bottom: 2px;
+    resize: vertical;
+    text-align: left;
+    line-height: 2px;
+}
+
+input[type=submit] {
+    float: right;
+    background:#4CAF50;
+    color: white;
+    padding: 15px 40px;
+    margin-right: 550px;
+    margin-top: -15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color:#45a049;
+}
+
+           /* Portfolio css */
+#main3{
+    background: #ffffff;
+    width: 950px;
+    height: 510px;
+    margin-left: 220px;
+    margin-right: 250px;
+    margin-top: 0;
+}
+.img1 {
+    float: left;
+    padding-top:10px;
+    padding-right: 30px;
+    margin-left: 50px;
+}
+    
+.img2 {
+    float: left;
+    padding-top: 10px;
+    padding-right: 30px;
+    margin-left: 50px;
+}
+
+.img3 {
+    float: left;
+    padding-top: 10px;
+    padding-right: 30px;
+
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.img4 {
+    float: left;
+    padding-top: 10px;
+    padding-right: 30px;
+    position: absoulte;
+    margin-top: 250px;
+    margin-left: -230px;
+    
+}
+
+.img5 {
+    float: left;
+    padding-top: 10px;
+    padding-right: 30px;
+    postion: absolute;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.img6 {
+    float: left;
+    padding-top: 10px;
+    padding-right: 30px;
+    postion: absolute;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
